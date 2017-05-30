@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
 
     TextView textView;
     Button button;
-    String server_url = "https://raw.githubusercontent.com/akandMehedi/GIT/master/json/ServerResponse/response.html";
+    //Get response from server
+    String server_url = "http://192.168.0.110:8080/xampp/response.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
