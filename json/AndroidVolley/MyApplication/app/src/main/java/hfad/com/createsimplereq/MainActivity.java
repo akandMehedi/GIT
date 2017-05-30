@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView textView;
     Button button;
-    String server_url = "https://raw.githubusercontent.com/akandMehedi/GIT/master/json/ServerResponse/response.txt";
+    String server_url = "https://raw.githubusercontent.com/akandMehedi/GIT/master/json/ServerResponse/response.html";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
